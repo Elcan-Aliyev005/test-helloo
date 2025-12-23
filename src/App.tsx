@@ -14,6 +14,7 @@ function App() {
       method: 'GET',
       headers: {
         'x-api-key': apiKey,
+        lang:"az",
         'Content-Type': 'application/json',
         'Accept': 'application/json'
       },
